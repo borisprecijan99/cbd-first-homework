@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+            
+    
+    <wb-module deploy-name="PlannerEAR">
+                        
+        
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+                
+        <dependent-module archiveName="PlannerJPA.jar" deploy-path="/lib" handle="module:/resource/PlannerJPA/PlannerJPA">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                
+        <dependent-module archiveName="PlannerWEB.war" deploy-path="/" handle="module:/resource/PlannerWEB/PlannerWEB">
+                        
+            <dependent-object/>
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                
+        <dependent-module archiveName="PlannerEJB.jar" deploy-path="/" handle="module:/resource/PlannerEJB/PlannerEJB">
+                        
+            <dependent-object/>
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                    
+    
+    </wb-module>
+        
+
+</project-modules>
